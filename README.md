@@ -17,13 +17,13 @@ In this mini-project located in my "Earthquake_Challenge" folder, I will be crea
 
 The first thing to note about this map are the pop-up markers that appear when we click on any registered earthquake. The pop-up markers will give the user precise information on both the magnitutude and location of the earthquake that was selected.
 
-- ![](Images/pop-up.png)
+   ![](Images/pop-up.png)
 
 The second notable feature is the size and color of the markers that are created for each earthquake. The radius(size) of each marker is dependent on the magnitude of the earthquake and so are the subsequent colors. The image above shows the varying styles of the markers. The styles for both the radius and color were created by retrieving the mapnitude properties from our imported geojson file. Below is a snippet of the code used in the "challenge_logic.js" that stylels our markers. 
 
-- ![](Images/changing_markers.png)
+   ![](Images/changing_markers.png)
 
-- Allowing for this kind of styling ensures that bigger earthquakes always pop out to the users, by making them appear both larger and darker than earthquakes of less magnitude. There is also a legend on the bottom right corner that provides a range for the magnitude of the earthquakes based on the color of our marker. The legend can be seen on the final image of this Readme file.
+Allowing for this kind of styling ensures that bigger earthquakes always pop out to the users, by making them appear both larger and darker than earthquakes of less magnitude. There is also a legend on the bottom right corner that provides a range for the magnitude of the earthquakes based on the color of our marker. The legend can be seen on the final image of this Readme file.
 
 ### Fault Line.
 
